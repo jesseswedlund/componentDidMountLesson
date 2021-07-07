@@ -6,7 +6,7 @@ const App = () => {
   console.log("Rendering App")
   return (
     <div className="App">
-      <Clock date={new Date()}/>
+      <Clock />
       <Dogs />
     </div>
   );
